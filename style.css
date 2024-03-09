@@ -1,0 +1,40 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+.welcome-container {
+    margin-top: 100px;
+}
+
+.monkey-animation {
+    width: 150px;
+    height: 150px;
+    background-image: url('https://media.giphy.com/media/13CoXDiaCcCoyk/giphy.gif');
+    background-size: cover;
+    background-repeat: no-repeat;
+    animation: bounce 2s infinite alternate;
+    margin: 20px auto;
+}
+
+@keyframes bounce {
+    0% { transform: translateY(0); }
+    100% { transform: translateY(-20px); }
+}
+
+.start-button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.start-button:hover {
+    background-color: #0056b3;
+}
